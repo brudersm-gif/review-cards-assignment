@@ -1,0 +1,124 @@
+@keyframes animation {
+	0% {
+		left: 0%;
+	}
+	5% {
+		left:5%;
+	}
+	10% {
+		left: 10%;
+	}
+	15% {
+		left: 15%
+	}
+	20% { 
+		left: 20%;
+	}
+	25% {
+		left: 25%;
+	}
+	30% {
+		left: 30%;
+	}
+	35% {
+		left: 35%;
+	}
+	40% {
+		left: 40%;
+	}
+	45% {
+		left: 45%;
+	}
+	50% {
+		left: 50%;
+	}
+	55% {
+		left: 55%;
+	}
+	60% {
+		left: 60%;
+	}
+	65% {
+		left: 65%;
+	}
+	70% {
+		left: 70%;
+	}
+	75% {
+		left: 75%;
+	}
+	80% {
+		left: 80%;
+	}
+	85% {
+		left: 85%;
+	}
+	90% {
+		left: 90%;
+	}
+	95% {
+		left: 95%;
+	}
+	100% {
+		left: 100%;
+	}
+}
+img {
+	width: 75px;
+	position: relative; right: 0px;
+	animation-name: animation;
+	animation-duration: 3s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+h2 {
+	font-family: Georgia, serif;
+	position: relative; left: 33%;
+}
+h4 {
+	margin-left:30%;
+}
+section.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	column-gap: 20px;
+	row-gap: 20px;
+	width: 75%;
+	/* can put in if need to see area : background-color: pink;  */
+	margin: auto;
+}
+section div.card1, div.card2, div.card3, div.card4, div.card5, div.card6, div.card7, div.card8, div.card9 {
+	flex: 1;
+	text-align: center;
+	font-size: 16px;
+	width:150px;
+	height: 200px;
+	background-color: #99CCCC;
+	border: 2px solid black;
+	border-radius: 30px;
+	margin: auto;
+}
+p {
+	font-size: 20px;
+	position: relative; top: 33%;
+	transition: color 0.2s;
+	transition-delay: 0.3s;
+}
+p.back {
+	display: none;
+	color: #99CCCC;
+}
+section div:hover {
+	p.front {display: none;}
+	p.back {display: block;}
+}
+p:hover { /* i should ask mrs wegter if there's a way to make it so when you hover over the div instead (the entire card) but still apply
+			the color change effect to the paragraph's font and such. so basically you hover over a div, but then the transition is for 
+			the paragraph (one of the child elements of the div). is that possible? i tried changing the paragraph's width & height to match,
+			but since I want to keep teh paragraph's text centered, i can't make it fit the div entirely . also ask her if it's okay that i 
+			included the question/instructions at the top instead of asking for the meaning of each card on them individually since that'd be 
+			pretty repetetive. is that okay? also, maybe check copyright stuff on the sticker webp image i used for the fish - if it's not good,
+			i can change it pretty easily i think. i'd like to do a nuko one otherwise....*/
+	color: black;
+}
