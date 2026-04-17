@@ -85,7 +85,6 @@ section.grid-container {
 	column-gap: 20px;
 	row-gap: 20px;
 	width: 75%;
-	/* can put in if need to see area : background-color: pink;  */
 	margin: auto;
 }
 section div.card1, div.card2, div.card3, div.card4, div.card5, div.card6, div.card7, div.card8, div.card9 {
@@ -113,12 +112,6 @@ section div:hover {
 	p.front {display: none;}
 	p.back {display: block;}
 }
-p:hover { /* i should ask mrs wegter if there's a way to make it so when you hover over the div instead (the entire card) but still apply
-			the color change effect to the paragraph's font and such. so basically you hover over a div, but then the transition is for 
-			the paragraph (one of the child elements of the div). is that possible? i tried changing the paragraph's width & height to match,
-			but since I want to keep teh paragraph's text centered, i can't make it fit the div entirely . also ask her if it's okay that i 
-			included the question/instructions at the top instead of asking for the meaning of each card on them individually since that'd be 
-			pretty repetetive. is that okay? also, maybe check copyright stuff on the sticker webp image i used for the fish - if it's not good,
-			i can change it pretty easily i think. i'd like to do a nuko one otherwise....*/
+p:hover {
 	color: black;
 }
