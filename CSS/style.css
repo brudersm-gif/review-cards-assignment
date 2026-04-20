@@ -109,6 +109,7 @@ p {
 }
 .front {
 	color: black;
+	display: block;
 	transition: color 0.3s ease, display 0.7s ease;
 }
 .card:hover .back {
