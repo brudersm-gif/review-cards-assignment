@@ -104,7 +104,7 @@ p {
 }
 .back {
 	color: transparent;
-	transition: color 0.3s ease;
+	transition: color 0s ease;
 	transition-delay: 0.5s;
 }
 .front {
