@@ -105,14 +105,16 @@ p {
 .back {
 	color: transparent;
 	transition: color 0.3s ease;
+	transition-delay: 2s;
 }
 .front {
 	color: black;
-	transition: color 0.3s ease;
+	transition: color 0.3s ease, display 0.7s ease;
 }
 .card:hover .back {
 	color: black;
 }
 .card:hover .front {
 	color: transparent;
+	display: none;
 }
