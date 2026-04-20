@@ -104,14 +104,10 @@ p {
 	transition: color 0.2s;
 	transition-delay: 0.3s;
 }
-p.back {
-	display: none;
-	color: #99CCCC;
+.back {
+	color: transparent;
+	transition: color 0.3s ease;
 }
-section div:hover {
-	p.front {display: none;}
-	p.back {display: block;}
-}
-p:hover {
+.card:hover p {
 	color: black;
 }
