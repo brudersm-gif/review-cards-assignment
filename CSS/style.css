@@ -109,7 +109,6 @@ p {
 	transition: color 0.3s ease;
 }
 .front {
-	color: black;
 	display: block;
 	transition: display 0.3s ease;
 }
