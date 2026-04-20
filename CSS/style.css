@@ -102,20 +102,17 @@ p {
 	font-size: 20px;
 	position: relative; top: 33%;
 }
-.back {
+.back1 {
 	color: transparent;
 	transition: color 0.3s ease;
-	transition-delay: 2s;
 }
-.front {
+.front1 {
 	color: black;
-	display: block;
-	transition: display 0.3s ease;
-	transition-delay: 1s;
+	transition: color 0.3s ease;
 }
 .card:hover .back {
 	color: black;
 }
 .card:hover .front {
-	display: none;
+	color: transparent;
 }
