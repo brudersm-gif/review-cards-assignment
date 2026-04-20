@@ -104,8 +104,9 @@ p {
 }
 .back {
 	color: transparent;
-	transition: color 0s ease;
+	transition: color 0s ease, display 0s ease;
 	transition-delay: 0s;
+	display: none;
 }
 .front {
 	color: black;
@@ -115,6 +116,7 @@ p {
 }
 .card:hover .back {
 	color: black;
+	display: block;
 }
 .card:hover .front {
 	display: none;
