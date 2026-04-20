@@ -101,16 +101,16 @@ section.grid-container {
 p {
 	font-size: 20px;
 	position: relative; top: 33%;
-	transition: color 0.2s;
-	transition-delay: 0.3s;
 }
 .back {
 	color: transparent;
 	transition: color 0.3s ease;
+	transition-delay: 0.3s;
 }
 .front {
 	display: block;
 	transition: display 0.3s ease;
+	transition-delay: 0.3s;
 }
 .card:hover .back {
 	color: black;
