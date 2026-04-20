@@ -108,13 +108,14 @@ p {
 	transition-delay: 0.4s;
 }
 .front {
+	display: block;
 	color: black;
-	transition: color 0.3s ease, visibility 0.4s ease;
+	transition: color 0.3s ease, display 0.4s ease;
 }
 .card:hover .back {
 	color: black;
 }
 .card:hover .front {
 	color: transparent;
-	visibility: hidden;
+	display: none;
 }
